@@ -13,9 +13,18 @@
 		181320A91E9F73D200B8520B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181320A71E9F73D200B8520B /* Main.storyboard */; };
 		181320AB1E9F73D200B8520B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181320AA1E9F73D200B8520B /* Assets.xcassets */; };
 		181320AE1E9F73D200B8520B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181320AC1E9F73D200B8520B /* LaunchScreen.storyboard */; };
+		181320BE1E9F743D00B8520B /* PopContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181320B71E9F743D00B8520B /* PopContentView.m */; };
+		181320BF1E9F743D00B8520B /* NSTimer+timerBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 181320BA1E9F743D00B8520B /* NSTimer+timerBlock.m */; };
+		181320C01E9F743D00B8520B /* ZZCircleProgress.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 181320BB1E9F743D00B8520B /* ZZCircleProgress.bundle */; };
+		181320C11E9F743D00B8520B /* ZZCircleProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 181320BD1E9F743D00B8520B /* ZZCircleProgress.m */; };
+		181320C81E9F745100B8520B /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181320C31E9F745100B8520B /* DemoViewController.m */; };
+		181320C91E9F745100B8520B /* LoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181320C51E9F745100B8520B /* LoadView.m */; };
+		181320CA1E9F745100B8520B /* UIViewController+CircleLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 181320C71E9F745100B8520B /* UIViewController+CircleLoading.m */; };
+		5E447AE16AE9AEB0D6C28A70 /* libPods-WealthLoading.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 253660829F535EBED4D0A077 /* libPods-WealthLoading.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14DC91FAA9E4331746668DDE /* Pods-WealthLoading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WealthLoading.release.xcconfig"; path = "Pods/Target Support Files/Pods-WealthLoading/Pods-WealthLoading.release.xcconfig"; sourceTree = "<group>"; };
 		1813209B1E9F73D200B8520B /* WealthLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WealthLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1813209F1E9F73D200B8520B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		181320A11E9F73D200B8520B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +35,21 @@
 		181320AA1E9F73D200B8520B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181320AD1E9F73D200B8520B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181320AF1E9F73D200B8520B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181320B61E9F743D00B8520B /* PopContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopContentView.h; sourceTree = "<group>"; };
+		181320B71E9F743D00B8520B /* PopContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopContentView.m; sourceTree = "<group>"; };
+		181320B91E9F743D00B8520B /* NSTimer+timerBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+timerBlock.h"; sourceTree = "<group>"; };
+		181320BA1E9F743D00B8520B /* NSTimer+timerBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+timerBlock.m"; sourceTree = "<group>"; };
+		181320BB1E9F743D00B8520B /* ZZCircleProgress.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZZCircleProgress.bundle; sourceTree = "<group>"; };
+		181320BC1E9F743D00B8520B /* ZZCircleProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCircleProgress.h; sourceTree = "<group>"; };
+		181320BD1E9F743D00B8520B /* ZZCircleProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCircleProgress.m; sourceTree = "<group>"; };
+		181320C21E9F745100B8520B /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		181320C31E9F745100B8520B /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		181320C41E9F745100B8520B /* LoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadView.h; sourceTree = "<group>"; };
+		181320C51E9F745100B8520B /* LoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadView.m; sourceTree = "<group>"; };
+		181320C61E9F745100B8520B /* UIViewController+CircleLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CircleLoading.h"; sourceTree = "<group>"; };
+		181320C71E9F745100B8520B /* UIViewController+CircleLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CircleLoading.m"; sourceTree = "<group>"; };
+		253660829F535EBED4D0A077 /* libPods-WealthLoading.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WealthLoading.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5AF4E7B9A05824BA138D29 /* Pods-WealthLoading.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WealthLoading.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WealthLoading/Pods-WealthLoading.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E447AE16AE9AEB0D6C28A70 /* libPods-WealthLoading.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +67,12 @@
 		181320921E9F73D200B8520B = {
 			isa = PBXGroup;
 			children = (
+				181320B51E9F743D00B8520B /* PopContentView */,
+				181320B81E9F743D00B8520B /* ZZCircleProgress */,
 				1813209D1E9F73D200B8520B /* WealthLoading */,
 				1813209C1E9F73D200B8520B /* Products */,
+				28D2A790AE5C7EA628450771 /* Pods */,
+				D711C95CB46563F16F024DCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +87,12 @@
 		1813209D1E9F73D200B8520B /* WealthLoading */ = {
 			isa = PBXGroup;
 			children = (
+				181320C21E9F745100B8520B /* DemoViewController.h */,
+				181320C31E9F745100B8520B /* DemoViewController.m */,
+				181320C41E9F745100B8520B /* LoadView.h */,
+				181320C51E9F745100B8520B /* LoadView.m */,
+				181320C61E9F745100B8520B /* UIViewController+CircleLoading.h */,
+				181320C71E9F745100B8520B /* UIViewController+CircleLoading.m */,
 				181320A11E9F73D200B8520B /* AppDelegate.h */,
 				181320A21E9F73D200B8520B /* AppDelegate.m */,
 				181320A41E9F73D200B8520B /* ViewController.h */,
@@ -79,6 +114,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		181320B51E9F743D00B8520B /* PopContentView */ = {
+			isa = PBXGroup;
+			children = (
+				181320B61E9F743D00B8520B /* PopContentView.h */,
+				181320B71E9F743D00B8520B /* PopContentView.m */,
+			);
+			path = PopContentView;
+			sourceTree = "<group>";
+		};
+		181320B81E9F743D00B8520B /* ZZCircleProgress */ = {
+			isa = PBXGroup;
+			children = (
+				181320B91E9F743D00B8520B /* NSTimer+timerBlock.h */,
+				181320BA1E9F743D00B8520B /* NSTimer+timerBlock.m */,
+				181320BB1E9F743D00B8520B /* ZZCircleProgress.bundle */,
+				181320BC1E9F743D00B8520B /* ZZCircleProgress.h */,
+				181320BD1E9F743D00B8520B /* ZZCircleProgress.m */,
+			);
+			path = ZZCircleProgress;
+			sourceTree = "<group>";
+		};
+		28D2A790AE5C7EA628450771 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF5AF4E7B9A05824BA138D29 /* Pods-WealthLoading.debug.xcconfig */,
+				14DC91FAA9E4331746668DDE /* Pods-WealthLoading.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D711C95CB46563F16F024DCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				253660829F535EBED4D0A077 /* libPods-WealthLoading.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181320B21E9F73D200B8520B /* Build configuration list for PBXNativeTarget "WealthLoading" */;
 			buildPhases = (
+				69B72122F8129ED4ECA0359D /* [CP] Check Pods Manifest.lock */,
 				181320971E9F73D200B8520B /* Sources */,
 				181320981E9F73D200B8520B /* Frameworks */,
 				181320991E9F73D200B8520B /* Resources */,
+				C1E02FE639DA314F655FC983 /* [CP] Embed Pods Frameworks */,
+				B6FA26FD6B7C6FA8DDED4229 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +186,7 @@
 				TargetAttributes = {
 					1813209A1E9F73D200B8520B = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = EZC4Q938KY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,20 +216,75 @@
 			files = (
 				181320AE1E9F73D200B8520B /* LaunchScreen.storyboard in Resources */,
 				181320AB1E9F73D200B8520B /* Assets.xcassets in Resources */,
+				181320C01E9F743D00B8520B /* ZZCircleProgress.bundle in Resources */,
 				181320A91E9F73D200B8520B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69B72122F8129ED4ECA0359D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6FA26FD6B7C6FA8DDED4229 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WealthLoading/Pods-WealthLoading-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1E02FE639DA314F655FC983 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WealthLoading/Pods-WealthLoading-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		181320971E9F73D200B8520B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181320C91E9F745100B8520B /* LoadView.m in Sources */,
+				181320BE1E9F743D00B8520B /* PopContentView.m in Sources */,
 				181320A61E9F73D200B8520B /* ViewController.m in Sources */,
+				181320C11E9F743D00B8520B /* ZZCircleProgress.m in Sources */,
 				181320A31E9F73D200B8520B /* AppDelegate.m in Sources */,
+				181320CA1E9F745100B8520B /* UIViewController+CircleLoading.m in Sources */,
 				181320A01E9F73D200B8520B /* main.m in Sources */,
+				181320C81E9F745100B8520B /* DemoViewController.m in Sources */,
+				181320BF1E9F743D00B8520B /* NSTimer+timerBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +404,12 @@
 		};
 		181320B31E9F73D200B8520B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF5AF4E7B9A05824BA138D29 /* Pods-WealthLoading.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EZC4Q938KY;
 				INFOPLIST_FILE = WealthLoading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fanxiaobin.WealthLoading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,9 +418,12 @@
 		};
 		181320B41E9F73D200B8520B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14DC91FAA9E4331746668DDE /* Pods-WealthLoading.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EZC4Q938KY;
 				INFOPLIST_FILE = WealthLoading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fanxiaobin.WealthLoading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -311,6 +449,7 @@
 				181320B41E9F73D200B8520B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
